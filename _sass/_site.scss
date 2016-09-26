@@ -1,14 +1,38 @@
+/* General */
+.list-style-none {
+  list-style: none;
+}
+.wrapper {
+  margin: 0 18.16%;
+  padding: 1.618% 0;
+}
+
 /* Site header */
 .site-header {
-
+  a {
+    color: #555;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 /* Site main */
 .site-main {
-
+  .wrapper {
+    padding-bottom: 0;
+  }
+  .banner-text {
+    font-size: 2.5rem;
+    top: calc(50% - 2rem);
+    width: 100%;
+  }
+  .banner-image {
+    width: 100%;
+  }
 }
 
 /* Site footer */
 .site-footer {
-  
+  margin-top: 1em;
 }

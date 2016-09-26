@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="site-main">
+      <div class="banner magin-auto text-center relative">
+        <h1 class="banner-text absolute white">Some thoughts while caffeine is loading&hellip;</h1>
+        <img class="banner-image" width="1366" height="480" src="{{ site.url }}/images/banner.jpg" alt="Some thoughts while caffeine is loading&hellip;">
+      </div>
+      <div class="wrapper flex wrap justify-between">
+        <div class="col col-x-7">
+          <h2>About me</h2>
+          {{ content }}
+        </div>
+        <aside class="col col-x-5 padding-x-2 padding-clear-y padding-clear-right">
+          <h2>Other profiles</h2>
+          <a href="https://www.facebook.com/dangvu.official">
+            <img src="{{ site.url }}/images/profile.jpg" alt="Bookworm">
+          </a>
+          <div class="padding-x-2 padding-clear-y">
+            <a href="https://stackexchange.com/users/8030707">
+              <img src="https://stackexchange.com/users/flair/8030707.png?theme=clean" width="261" height="73" alt="profile for Dan9 on Stack Exchange" title="profile for Dan9 on Stack Exchange">
+            </a>
+            <a class="twitter-timeline" data-chrome="noheader,nofooter,noborders,transparent" data-lang="en" data-dnt="true" data-theme="light" data-tweet-limit="3" href="https://twitter.com/dangvu_official">Tweets by dangvu_official</a>
+          </div>
+        </aside>
+      </div>
+    </main>
+    {% include footer.html %}
+    <script async src="//platform.twitter.com/widgets.js"></script>
+  </body>
+</html>

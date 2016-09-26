@@ -85,6 +85,10 @@
       max-width: $col-x-12;
 		}
 	}
+  .banner-text {
+    font-size: 1.8rem;
+    top: calc(50% - 1.7rem);
+  }
 }
 
 /* Medium screen */
@@ -107,6 +111,13 @@
       max-width: $col-x-12;
 		}
 	}
+  .banner-text {
+    font-size: 1.4rem;
+    top: calc(50% - 1.5rem);
+  }
+  .wrapper {
+    margin: 2% 6.18%;
+  }
 }
 
 /* Small screen */
@@ -125,6 +136,10 @@
       max-width: $col-x-12;
 		}
 	}
+  .banner-text {
+    font-size: 1rem;
+    top: calc(50% - 1.3rem);
+  }
 }
 
 /* Extra small screen */
