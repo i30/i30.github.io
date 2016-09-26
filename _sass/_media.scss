@@ -1,0 +1,142 @@
+/* Extra large screen */
+@media only screen and (min-width: $extra-large-breakpoint) {
+	.flex {
+		justify-content: center !important;
+	}
+	.col {
+		&.col-x-1 {
+			width: $col-x-1;
+			max-width: 120px;
+		}
+		&.col-x-2 {
+			width: $col-x-2;
+			max-width: 240px;
+		}
+		&.col-x-3 {
+			width: $col-x-3;
+			max-width: 360px;
+		}
+		&.col-x-4 {
+			width: $col-x-4;
+			max-width: 480px;
+		}
+		&.col-x-5 {
+			width: $col-x-5;
+			max-width: 600px;
+		}
+		&.col-x-6 {
+			width: $col-x-6;
+			max-width: 720px;
+		}
+		&.col-x-7 {
+			width: $col-x-7;
+			max-width: 840px;
+		}
+		&.col-x-8 {
+			width: $col-x-8;
+			max-width: 960px;
+		}
+		&.col-x-9 {
+			width: $col-x-9;
+			max-width: 1080px;
+		}
+		&.col-x-10 {
+			width: $col-x-10;
+			max-width: 1200px;
+		}
+		&.col-x-11 {
+			width: $col-x-11;
+			max-width: 1320px;
+		}
+		&.col-x-12 {
+			width: $col-x-12;
+			max-width: 1440px;
+		}
+	}
+}
+
+/* Medium large screen */
+@media only screen and (max-width: $medium-large-breakpoint) {
+	.col {
+		&.col-x-1 {
+			width: $col-x-2;
+      max-width: $col-x-2;
+		}
+		&.col-x-2 {
+			width: $col-x-3;
+      max-width: $col-x-3;
+		}
+		&.col-x-3 {
+			width: $col-x-4;
+      max-width: $col-x-4;
+		}
+		&.col-x-4 {
+			width: $col-x-6;
+      max-width: $col-x-6;
+		}
+		&.col-x-5,
+		&.col-x-6,
+		&.col-x-7,
+		&.col-x-8,
+		&.col-x-9,
+		&.col-x-10,
+		&.col-x-11 {
+			width: $col-x-12;
+      max-width: $col-x-12;
+		}
+	}
+}
+
+/* Medium screen */
+@media only screen and (max-width: $medium-breakpoint) {
+	.col {
+		&.col-x-1 {
+			width: $col-x-3;
+      max-width: $col-x-3;
+		}
+		&.col-x-2 {
+			width: $col-x-4;
+      max-width: $col-x-4;
+		}
+		&.col-x-3 {
+			width: $col-x-6;
+      max-width: $col-x-6;
+		}
+		&.col-x-4 {
+			width: $col-x-12;
+      max-width: $col-x-12;
+		}
+	}
+}
+
+/* Small screen */
+@media only screen and (max-width: $small-breakpoint) {
+	.col {
+		&.col-x-1 {
+			width: $col-x-4;
+      max-width: $col-x-4;
+		}
+		&.col-x-2 {
+			width: $col-x-6;
+      max-width: $col-x-6;
+		}
+		&.col-x-3 {
+			width: $col-x-12;
+      max-width: $col-x-12;
+		}
+	}
+}
+
+/* Extra small screen */
+@media only screen and (max-width: $extra-small-breakpoint) {
+	.col {
+		&.col-x-1 {
+			width: $col-x-6;
+      max-width: $col-x-6;
+		}
+		&.col-x-2 {
+			width: $col-x-12;
+      max-width: $col-x-12;
+		}
+	}
+}
