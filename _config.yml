@@ -13,6 +13,8 @@ baseurl: ""
 url: "http://127.0.0.1:4000"
 twitter_username: i30
 github_username:  i30
+collections:
+  books:
 
 # Build settings
 markdown: kramdown

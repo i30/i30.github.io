@@ -85,9 +85,11 @@
       max-width: $col-x-12;
 		}
 	}
-  .banner-text {
-    font-size: 1.8rem;
-    top: calc(50% - 1.7rem);
+  .site-main {
+    .banner-text {
+      font-size: 1.8rem;
+      top: calc(50% - 1.7rem);
+    }
   }
 }
 
@@ -111,9 +113,11 @@
       max-width: $col-x-12;
 		}
 	}
-  .banner-text {
-    font-size: 1.4rem;
-    top: calc(50% - 1.5rem);
+  .site-main {
+    .banner-text {
+      font-size: 1.4rem;
+      top: calc(50% - 1.5rem);
+    }
   }
   .wrapper {
     margin: 2% 6.18%;
@@ -136,9 +140,11 @@
       max-width: $col-x-12;
 		}
 	}
-  .banner-text {
-    font-size: 1rem;
-    top: calc(50% - 1.3rem);
+  .site-main {
+    .banner-text {
+      font-size: 1rem;
+      top: calc(50% - 1.3rem);
+    }
   }
 }
 

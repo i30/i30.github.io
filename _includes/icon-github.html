@@ -1,1 +1,4 @@
-<a href="https://github.com/{{ include.username }}"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span></a>
+<a rel="author" href="https://github.com/{{ include.username }}" itemscope itemtype="https://schema.org/Person">
+  <span role="presentation" class="icon icon--github">{% include icon-github.svg %}</span>
+  <span itemprop="name" class="username">{{ include.username }}</span>
+</a>

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html itemscope itemtype="https://schema.org/AboutPage">
   {% include head.html %}
   <body>
     {% include header.html %}
     <main class="site-main">
       <div class="banner magin-auto text-center relative">
         <h1 class="banner-text absolute white">Some thoughts while caffeine is loading&hellip;</h1>
-        <img class="banner-image" width="1366" height="480" src="{{ site.url }}/images/banner.jpg" alt="Some thoughts while caffeine is loading&hellip;">
+        <img class="banner-image" width="1366" height="480" src="{{ "/images/banner.jpg" | prepend: site.baseurl }}" alt="Some thoughts while caffeine is loading&hellip;">
       </div>
       <div class="wrapper flex wrap justify-between">
         <div class="col col-x-7">
@@ -16,7 +16,7 @@
         <aside class="col col-x-5 padding-x-2 padding-clear-y padding-clear-right">
           <h2>Other profiles</h2>
           <a href="https://www.facebook.com/dangvu.official">
-            <img src="{{ site.url }}/images/profile.jpg" alt="Bookworm">
+            <img src="{{ "/images/profile.jpg" | prepend: site.baseurl }}" alt="Bookworm">
           </a>
           <div class="padding-x-2 padding-clear-y">
             <a href="https://stackexchange.com/users/8030707">
@@ -28,6 +28,6 @@
       </div>
     </main>
     {% include footer.html %}
-    <script async src="//platform.twitter.com/widgets.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
   </body>
 </html>
