@@ -4,16 +4,17 @@
   <body>
     {% include header.html %}
     <main class="site-main">
-      <div class="banner magin-auto text-center relative">
+      <!-- <div class="banner magin-auto text-center relative">
         <h1 class="banner-text absolute white">Some thoughts while caffeine is loading&hellip;</h1>
         <img class="banner-image" width="1366" height="480" src="{{ "/images/banner.jpg" | prepend: site.baseurl }}" alt="Some thoughts while caffeine is loading&hellip;">
-      </div>
+      </div> -->
       <div class="wrapper flex wrap justify-between">
-        <div class="col col-x-7">
-          <h2>About me</h2>
+        <!-- <div class="col col-x-7"> -->
+          <!-- <h2>About me</h2> -->
+          <img src="{{ "/images/profile.jpg" | prepend: site.baseurl }}" alt="Bookworm">
           {{ content }}
-        </div>
-        <aside class="col col-x-5 padding-x-2 padding-clear-y padding-clear-right">
+        <!-- </div> -->
+        <!-- <aside class="col col-x-5 padding-x-2 padding-clear-y padding-clear-right">
           <h2>Other profiles</h2>
           <a href="https://www.facebook.com/dangvu.official">
             <img src="{{ "/images/profile.jpg" | prepend: site.baseurl }}" alt="Bookworm">
@@ -24,7 +25,7 @@
             </a>
             <a class="twitter-timeline" data-chrome="noheader,nofooter,noborders,transparent" data-lang="en" data-dnt="true" data-theme="light" data-tweet-limit="3" href="https://twitter.com/dangvu_official">Tweets by dangvu_official</a>
           </div>
-        </aside>
+        </aside> -->
       </div>
     </main>
     {% include footer.html %}
