@@ -54,7 +54,7 @@
     transform-style: preserve-3d;
   }
   .book-front {
-    border-left: 1px solid #ff9f40;
+    border-left: 1px solid #efefef;
   	transform-origin: 1.5px;
   	transition: transform .5s;
   	transform: translate3d(0, 0, 20px);
@@ -90,7 +90,7 @@
   	border-bottom-left-radius: 3px;
     transform: rotate3d(0, 1, 0, -90deg);
     p {
-      border-top: 3px solid #ff9f40;
+      border-top: 3px solid #efefef;
     	width: 200px;
     	height: 40px;
     	line-height: 40px;
