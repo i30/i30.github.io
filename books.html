@@ -20,7 +20,7 @@ permalink: /books/
 </div> -->
 <ul class="book-list margin-none list-style-none flex wrap justify-between">
   {% for book in site.books %}
-  <li class="col col-x-3 relative">
+  <li class="col col-x-3 relative {{ book.genre }}">
   	<div class="book book-default text-small">
   		<div class="book-front" style="background-image:url(/images/{{ book.cover }});background-size:cover;background-position:center;background-repeat:no-repeat;">
   			<div role="presentation" class="book-cover-inside" style="background-color:#e3e3e3"></div>
