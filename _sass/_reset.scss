@@ -30,6 +30,11 @@ code {
   line-height: 1.3;
   padding: 0 2px;
 }
+img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
 input, textarea {
   border: 1px solid #666;
   border-radius: 2px;
