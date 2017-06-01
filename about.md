@@ -7,7 +7,7 @@ image:
   height: 440
 permalink: /
 ---
-Hi! I'm Minh Tri - pronounced as Minh Trí in Vietnamese. Nice to see you here!
+Hi! I'm Minh Trí. Nice to see you here!
 
 I'm a web developer focusing on [PHP](http://php.net/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). I also speak [Go](https://golang.org/) quite well.
 
