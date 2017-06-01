@@ -1,3 +1,18 @@
 <footer class="site-footer">
-  <div class="wrapper text-small text-center">Proudly powered by <a href="https://pages.github.com">Github Pages</a>. Made with &hearts; from <a href="mailto:&#99;on&#116;a&#99;&#116;.dangv&#117;&#64;&#103;m&#97;&#105;l.&#99;om?Subject=Hello%20Dan9!">Minh Tri</a>. Subscribe via <a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></div>
+  <div class="wrapper text-small text-center">Proudly powered by <a href="https://pages.github.com">Github Pages</a>. Made with &hearts; from <a href="mailto:&#99;on&#116;a&#99;&#116;.dangv&#117;&#64;&#103;m&#97;&#105;l.&#99;om?Subject=Hello%20Minh%20Tri!">Minh Tri</a>. Subscribe via <a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></div>
 </footer>
+{% if page.layout == "about" %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Minh Tri Vu",
+  "url": "{{ site.url }}",
+  "sameAs": [
+    "http://twitter.com/minhtri_vu",
+    "https://www.linkedin.com/in/minhtrivu",
+    "https://plus.google.com/u/1/110933603599655337800"
+  ]
+}
+</script>
+{% endif %}

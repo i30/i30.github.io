@@ -1,11 +1,13 @@
 <header class="site-header">
   <div class="wrapper">
-    <nav class="site-nav flex wrap justify-between">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-          <a class="site-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        {% endif %}
-      {% endfor %}
+    <nav class="site-nav">
+        <ul role="menubar" class="flex wrap justify-between list-style-none margin-none padding-none">
+            {% for my_page in site.pages %}
+              {% if my_page.title %}
+                <li role="menuitem"><a class="site-link" href="{{ my_page.url | prepend: site.baseurl }}" itemprop="url"><span itemprop="name">{{ my_page.title }}</span></a></li>
+              {% endif %}
+            {% endfor %}
+        </ul>
     </nav>
   </div>
 </header>

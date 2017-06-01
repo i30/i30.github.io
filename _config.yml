@@ -6,13 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: i30's blog
-email: contact.dangvu@gmail.com
-description: Some thoughts while caffeine is loading...
+title: Minh Tri Vu
+email: minhtri.contact@gmail.com
+description: "Some thoughts while caffeine is loading..."
 baseurl: ""
-url: "http://i30.github.io"
-twitter_username: i30
-github_username:  i30
+url: "http://minhtri.org"
+twitter_username: minhtri_vu
+github_username: i30
+permalink: none
 collections:
   books:
 

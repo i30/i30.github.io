@@ -1,11 +1,15 @@
 ---
 layout: about
 title: Read me
-permalink: /about/
+image:
+  url: "/images/profile.jpg"
+  width: 768
+  height: 440
+permalink: /
 ---
 Hi! I'm Minh Tri - pronounced as Minh Trí in Vietnamese. Nice to see you here!
 
-I'm a co-founder of [Mina Japanese Center](https://en.mina.edu.vn). Because coding is cool, I'm working as a freelance web developer as well. Just kidding! :V
+I'm a web developer focusing on [PHP](http://php.net/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). I also speak [Go](https://golang.org/) quite well.
 
 Fishing, biking and traveling are my favorite activities. If you're going to travel to Vietnam someday, there're always free rooms and tour guides for you.
 

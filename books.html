@@ -19,30 +19,33 @@ permalink: /books/
   <button class="sort" data-sort="myorder:asc">Newest</button>
 </div> -->
 <ul class="book-list margin-none list-style-none flex wrap justify-between">
-  {% for book in site.books %}
-  <li class="col col-x-3 relative {{ book.genre }}">
-  	<div class="book book-default text-small">
-  		<div class="book-front" style="background-image:url(/images/{{ book.cover }});background-size:cover;background-position:center;background-repeat:no-repeat;">
-  			<div role="presentation" class="book-cover-inside" style="background-color:#e3e3e3"></div>
-  		</div>
-  		<div class="book-page">
-  			<div class="book-content book-content-current small">
-          {{ book.excerpt }}
-          <p class="margin-none"><a href="{{ book.purchaseUrl }}" target="_blank">View more &rarr;</a></p>
-  			</div>
-  		</div>
-  		<div role="presentation" class="book-back" style="background-color:#e3e3e3">
-        <p><strong>Disclaimer</strong>: This book is for educational purposes only. Keep in mind that you are responsible for your own choices and actions!
-          <a href="{{ book.downloadUrl }}" target="_blank">&#9658; Download book!</a>
-        </p>
-      </div>
-  		<div class="book-left">
-  			<p class="margin-none small" style="background:linear-gradient(#ececec,#e3e3e3)">
-          <a role="button" href="#" class="turn-back">
-            <span class="screen-reader">Turn back</span>
-          </a>{{ book.title }}</p>
-  		</div>
-  	</div>
-  </li>
-  {% endfor %}
+    {% for book in site.books %}
+        <li class="col col-x-3 relative {{ book.genre }}" itemscope itemtype="http://schema.org/Book">
+            <div class="book book-default text-small">
+  		         <div class="book-front" style="background-image:url('{{ site.baseurl }}/images/{{ book.cover }}');">
+                     <div role="presentation" class="book-cover-inside" style="background-color:#e3e3e3"></div>
+                 </div>
+                 <div class="book-page">
+                     <div class="book-content book-content-current small">
+                         <span itemprop="description">{{ book.excerpt }}</span>
+                         <p class="margin-none"><a href="{{ book.purchaseUrl }}" target="_blank">View more &rarr;</a></p>
+                     </div>
+                 </div>
+                 <div role="presentation" class="book-back" style="background-color:#e3e3e3">
+                     <p><strong>Disclaimer</strong>: This book is for educational purposes only. Keep in mind that you are responsible for your own choices and actions!
+                         <a href="{{ book.downloadUrl }}" target="_blank">&#9658; Download book!</a>
+                     </p>
+                 </div>
+                 <div class="book-left">
+                     <p class="margin-none small" style="background:linear-gradient(#ececec,#e3e3e3)">
+                         <a role="button" href="javascript:void(0)" class="turn-back">
+                             <span class="screen-reader">Turn back</span>
+                         </a><span itemprop="name">{{ book.title }}</span>
+                     </p>
+                </div>
+            </div>
+            <meta itemprop="bookFormat" content="EBook">
+            <meta itemprop="inLanguage" content="en">
+        </li>
+    {% endfor %}
 </ul>

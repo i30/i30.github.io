@@ -21,6 +21,16 @@
 .site-main {
   .wrapper {
     padding-bottom: 0;
+    .post-list {
+        .post {
+            padding-bottom: 1em;
+            .entry-meta {
+                font-size: 85%;
+                opacity: .8;
+                margin-bottom: 0;
+            }
+        }
+    }
   }
   .banner-text {
     font-size: 2.5rem;
@@ -29,6 +39,7 @@
   }
   .banner-image {
     width: 100%;
+    height: auto;
   }
   .book-list {
     padding-top: 1em;
@@ -54,6 +65,9 @@
     transform-style: preserve-3d;
   }
   .book-front {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-left: 1px solid #efefef;
   	transform-origin: 1.5px;
   	transition: transform .5s;
