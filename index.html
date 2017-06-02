@@ -7,7 +7,7 @@ permalink: /blog/
     {% for post in site.posts %}
         <li class="list-item post" itemprop="blogPost">
             <h2 class="entry-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <p class="entry-meta"><small>Posted on {{ post.date | date: '%B %d, %Y' }}{% if post.category %} in <a href="{{ post.category | prepend: site.baseurl }}">{{ post.category }}</a>{% endif %}.</small></p>
+            <p class="entry-meta"><small>Posted on {{ post.date | date: '%B %d, %Y' }}.</small></p>
             <p class="entry-content">{% if post.content %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% elsif post.excerpt %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}</p>
         </li>
     {% endfor %}

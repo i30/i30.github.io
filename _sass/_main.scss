@@ -21,13 +21,18 @@
 .site-main {
   .wrapper {
     padding-bottom: 0;
+    article {
+        footer {
+            border-top: 1px solid #ddd;
+        }
+    }
     .post-list {
         .post {
             padding-bottom: 1em;
             .entry-meta {
                 font-size: 85%;
                 opacity: .8;
-                margin-bottom: 0;
+                margin-bottom: .5em;
             }
         }
     }
@@ -187,5 +192,7 @@
 
 /* Site footer */
 .site-footer {
-
+    .text-small {
+        opacity: .8;
+    }
 }
