@@ -9,7 +9,7 @@ permalink: /
 ---
 Hi! I'm Minh Tri - written as Minh Trí in Vietnamese. Nice to see you here!
 
-I'm a web developer focusing on [PHP](http://php.net/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). I also speak [Go](https://golang.org/) quite well.
+I'm a web developer focusing on [PHP](http://php.net/) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). I also speak [Java](https://www.java.com/en/) quite well.
 
 Fishing, biking and traveling are my favorite activities. If you're going to travel to Vietnam someday, there're always free rooms and tour guides for you.
 

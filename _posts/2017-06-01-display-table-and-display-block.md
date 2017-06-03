@@ -1,8 +1,8 @@
 ---
-layout: notes
-title:  "HTML notes"
-category: html
-date:   2017-06-01 19:05:25 +0700
+layout:   post
+title:    "Display: table and display: block"
+category: css
+date:     2017-06-01 19:05:25 +0700
 ---
 
 ## 1. WordPress the good parts

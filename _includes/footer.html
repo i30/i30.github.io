@@ -1,5 +1,16 @@
 <footer class="site-footer">
-  <!-- <div class="wrapper text-small text-center">Proudly powered by <a href="https://pages.github.com">Github Pages</a>. Made with &hearts; from <a href="mailto:&#99;on&#116;a&#99;&#116;.dangv&#117;&#64;&#103;m&#97;&#105;l.&#99;om?Subject=Hello%20Minh%20Tri!">Minh Tri</a>. Subscribe via <a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></div> -->
+  {% if page.layout == "about" %}
+    <div class="wrapper flex wrap justify-between">
+        <p class="margin-none">
+            &copy; {{ site.time | date: '%Y' }} <a href="mailto:minhtri.contact@gmail.com?Subject=Hello!">Minh Tri</a>.
+        </p>
+        <p class="margin-none">
+            <a rel="author" href="https://github.com/{{ site.github_username }}">Github</a>
+            | <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+            | <a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a>
+        </p>
+    </div>
+  {% endif %}
 </footer>
 {% if page.layout == "about" %}
 <script type="application/ld+json">
