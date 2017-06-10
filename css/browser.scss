@@ -1,0 +1,29 @@
+---
+# Only the app Sass file needs front matter (the dashes are enough)
+---
+body {
+    color: #555;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+	text-rendering: optimizeLegibility;
+}
+.browser {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    .header {
+        background-color: #eee;
+        height: 20px;
+        padding: 0 10px;
+        i {
+            color: #ccc;
+            font-size: 30px;
+            font-style: normal;
+            line-height: 15px;
+            padding: 0 1px;
+        }
+    }
+    .body {
+        margin: 10px;
+    }
+}

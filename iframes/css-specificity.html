@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS specificity example</title>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:300,500&amp;subset=latin-ext,vietnamese">
+        <link rel="stylesheet" href="/css/browser.css">
+        <style>
+        #box #button1 {
+            border: 1px solid red;
+        }
+        .browser .body #box button[name=button1] {
+            border: 1px solid blue;
+        }
+        </style>
+    </head>
+    <body>
+        <div role="presentation" class="browser">
+            <div class="header"><i>&bull;</i><i>&bull;</i><i>&bull;</i></div>
+            <div class="body">
+                <div id="box">
+                    <button id="button1" class="button button1" type="button" name="button1">Button 1</button>
+                    <button id="button2" class="button button2" type="button" name="button2" disabled>Button 2</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -19,13 +19,25 @@
 
 /* Site main */
 .site-main {
-  .wrapper {
-    padding-bottom: 0;
-    article {
-        footer {
-            border-top: 1px solid #ddd;
+    .highlight {
+        .o, .nc, .nf {
+            font-weight: 300;
+        }
+        .language-css {
+            .nl {
+                color: #690;
+            }
+            .cp {
+                color: #d14;
+                font-weight: normal;
+            }
+            .nb {
+                color: #099;
+            }
         }
     }
+  .wrapper {
+    padding-bottom: 0;
     .post-list {
         .post {
             padding-bottom: 1em;
@@ -36,11 +48,6 @@
             }
         }
     }
-  }
-  .banner-text {
-    font-size: 2.5rem;
-    top: calc(50% - 2rem);
-    width: 100%;
   }
   .banner-image {
     width: 100%;

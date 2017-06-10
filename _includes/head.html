@@ -7,17 +7,17 @@
     <meta property="og:site_name" content="{{ site.title }}">
     <meta name="twitter:creator" content="@minhtri_vu">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:decription" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:decription" content="{% if page.excerpt %}{{ page.excerpt | strip | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     {% if page.type %}
     <meta property="og:tyle" content="{{ page.type }}">
     {% endif %}
     {% if page.image %}
-    <meta name="twitter:image" content="{{ page.image.url | prepend: site.baseurl }}">
-    <meta property="og:image" content="{{ page.image.url | prepend: site.baseurl }}">
+    <meta name="twitter:image" content="{{ page.image.url | prepend: site.url }}">
+    <meta property="og:image" content="{{ page.image.url | prepend: site.url }}">
     <meta property="og:image:width" content="{{ page.image.width }}">
     <meta property="og:image:height" content="{{ page.image.height }}">
     {% endif %}
@@ -30,6 +30,7 @@
     {% if page.tag %}
     <meta property="article:tag" content="{{ page.tag }}">
     {% endif %}
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:300,500&amp;subset=latin-ext,vietnamese">
     <link rel="stylesheet" href="{{ '/css/app.css' | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
