@@ -58,6 +58,7 @@
 /* Medium large screen */
 @media only screen and (max-width: $medium-large-breakpoint) {
 	.col {
+        padding: 0;
 		&.col-x-1 {
 			width: $col-x-2;
       max-width: $col-x-2;

@@ -4,20 +4,11 @@ title: Read more
 permalink: /blog/
 ---
 <ul class="list post-list list-style-none margin-none">
-    {% for post in site.posts %}
-        {% if post.series %}
-        {% continue %}
-        {% endif %}
-        <li class="list-item post" itemprop="blogPost">
-            <h2 class="entry-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <p class="entry-meta"><small>Posted on {{ post.date | date: '%B %d, %Y' }}.</small></p>
-            <p class="entry-content">
-                {% if post.excerpt %}
-                    {{ post.excerpt }}
-                {% elsif post.content %}
-                    {{ post.content | strip | strip_html | strip_newlines | truncate: 160 }}
-                {% endif %}
-            </p>
-        </li>
-    {% endfor %}
+  {% for post in site.posts %}{% if post.series %}{% continue %}{% endif %}
+    <li class="list-item post" itemprop="blogPost">
+      <h2 class="entry-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <p class="entry-meta"><small>{{ post.date | date: '%B %d, %Y' }}.</small></p>
+      <p>{{ post.excerpt | strip | strip_html | strip_newlines | truncate: 160 }}</p>
+    </li>
+  {% endfor %}
 </ul>

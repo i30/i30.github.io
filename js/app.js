@@ -12,7 +12,7 @@
         if (iframes.length) {
             iframes.forEach(function(frame, index, frames)
             {
-                frame.style.height = (iframe.document.documentElement.scrollHeight + 1) + "px";
+                frame.style.height = (iframe.document.documentElement.scrollHeight + 2) + "px";
             });
         }
     }

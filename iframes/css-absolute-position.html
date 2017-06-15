@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>absolute position example</title>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:300">
+        <link rel="stylesheet" href="/css/browser.css">
+        <style>
+          #box {
+            position: relative;
+          }
+          #box div {
+            background-color: #ffec94;
+          }
+          #box #relative {
+            background-color: #b0e57c;
+            position: absolute;
+            top: 20px;
+          }
+        </style>
+    </head>
+    <body>
+        <div role="presentation" class="browser">
+            <div class="header"><i>&bull;</i><i>&bull;</i><i>&bull;</i></div>
+            <div class="body">
+                <div id="box">
+                    <div>What's your position scheme?</div>
+                    <div id="relative">I'm absolute now.</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

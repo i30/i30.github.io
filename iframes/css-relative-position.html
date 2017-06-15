@@ -3,22 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>CSS em unit examples</title>
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:300,500&amp;subset=latin-ext,vietnamese">
+        <title>relative position example</title>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:300">
         <link rel="stylesheet" href="/css/browser.css">
         <style>
-            html {
-                font-size: 8px;
-            }
-            #box {
-                font-size: 10px;
-            }
-            p {
-                font-size: 2rem;
-                line-height: 1;
-                margin: 0;
-                padding: 2rem;
-            }
+          #box div {
+            background-color: #ffec94;
+          }
+          #box #relative {
+            background-color: #b0e57c;
+            position: relative;
+            top: 20px;
+          }
         </style>
     </head>
     <body>
@@ -26,7 +22,8 @@
             <div class="header"><i>&bull;</i><i>&bull;</i><i>&bull;</i></div>
             <div class="body">
                 <div id="box">
-                    <p>Lorem ipsum dolor sit amet...</p>
+                    <div>What's your position scheme?</div>
+                    <div id="relative">I'm relative to myself.</div>
                 </div>
             </div>
         </div>

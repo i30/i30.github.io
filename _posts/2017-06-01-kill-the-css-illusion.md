@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kill your CSS illusion"
+title: "Kill the CSS illusion"
 image:
   url: /images/css-101.gif
   width: 380
@@ -16,10 +16,11 @@ date: 2017-06-01 19:05:25 +0700
 
 ## Table of Contents
 
-Contains only important specifications which is often vague or misleading in common documentations.
+These references are created for those who haven't learnt CSS properly or begin to learn CSS the right way.
 
-1. [Basics](/css/css-essentials.html).
-2. [Cascade](/css/css-cascade-algorithm.html).
-3. [Inheritance](/css/css-inheritance.html).
-4. [Visual Formatting](/css/css-visual-formatting.html).
-5. [Box Model and Layout](/css/css-box-model.html).
+1. [Terms](/css/terminologies.html).
+2. [Basics](/css/essentials.html).
+3. [Cascade](/css/cascade-algorithm.html).
+4. [Positioning](/css/positioning.html).
+5. [Box Model](/css/box-model.html).
+6. [Visual Formatting](/css/visual-formatting.html).
