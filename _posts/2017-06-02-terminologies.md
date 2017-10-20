@@ -92,7 +92,7 @@ Elements, which generate [block container boxes](#block-container-box), are call
 
 ### 5.1. Principal box
 
-Every element generate a primary rectangular box called principal box.
+Every element generates a primary rectangular box called principal box.
 
 ### 5.2. Block-level box
 
@@ -198,7 +198,7 @@ While processing document, user agents must first assign a value to each propert
 
 From specified values, relative lengths (e.g., `em`) will be converted into absolute lengths, relative URIs will be converted into absolute URIs. The converted results are called computed values.
 
-Child elements generally inherit computed values of their parent
+Child elements generally inherit computed values of their parent as its specified values.
 
 ## 6. Viewport
 
@@ -211,10 +211,26 @@ Viewport is a window or other viewing area on a device's screen through which us
 The containing block of an element is defined as follows:
 
 1. The block in which the root element lives is a containing block named **initial containing block**. For [continuous media](https://www.w3.org/TR/CSS22/media.html#continuous-media-group), it has the dimensions of the viewport.
-2. For other elements, if the element's position is `relative` or `static`, the containing block is formed by the content edge of the nearest ancestor box that is a block container or which establishes a formatting context.
+2. For other elements, if the element's position is `relative` or `static`, the containing block is formed by the content edge of the nearest ancestor block container box or which establishes a formatting context.
 3. If the element has `fixed` position, the containing block is established by the viewport in the case of continuous media or the page area in the case of paged media.
 4. If the element has `absolute`, the containing block is established by the nearest ancestor with a position of `absolute`, `relative` or `fixed`, in the following way:
     1. In the case that the ancestor is an inline element, the containing block is the bounding box around the padding boxes of the first and the last inline boxes generated for that element. In CSS 2.2, if the inline element is split across multiple lines, the containing block is undefined.
     2. Otherwise, the containing block is formed by the padding edge of the ancestor.
 
 If there is no such ancestor, the containing block is the initial containing block.
+
+## 8. Formatting context
+
+### 8.1. Block formatting context
+
+Floats, absolutely positioned elements, block containers (such as inline-blocks, table-cells, and table-captions) that are not block boxes, and block boxes with 'overflow' other than 'visible' (except when that value has been propagated to the viewport) establish new block formatting contexts for their contents.
+
+In a block formatting context, boxes are laid out one after the other, vertically, beginning at the top of a containing block. The vertical distance between two sibling boxes is determined by the 'margin' properties.
+
+### 8.2. Inline formatting context
+
+An inline formatting context is established by a block container box that contains no block-level boxes. In an inline formatting context, boxes are laid out horizontally, one after the other, beginning at the top of a containing block. Horizontal margins, borders, and padding are respected between these boxes. The boxes may be aligned vertically in different ways: their bottoms or tops may be aligned, or the baselines of text within them may be aligned. The rectangular area that contains the boxes that form a line is called a line box.
+
+The width of a line box is determined by a containing block and the presence of floats. The height of a line box is determined by the rules given in the section on line height calculations.
+
+A line box is always tall enough for all of the boxes it contains. However, it may be taller than the tallest box it contains (if, for example, boxes are aligned so that baselines line up). When the height of a box B is less than the height of the line box containing it, the vertical alignment of B within the line box is determined by the 'vertical-align' property. When several inline-level boxes cannot fit horizontally within a single line box, they are distributed among two or more vertically-stacked line boxes. Thus, a paragraph is a vertical stack of line boxes. Line boxes are stacked with no vertical separation (except as specified elsewhere) and they never overlap.

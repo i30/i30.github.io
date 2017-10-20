@@ -3,17 +3,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Test model box</title>
+        <title>css percentage margins example</title>
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:300">
         <link rel="stylesheet" href="/css/browser.css">
+        <style>
+          #box p {
+            background-color: #b0e57c;
+            margin: 5%;
+          }
+        </style>
     </head>
     <body>
         <div role="presentation" class="browser">
             <div class="header"><i>&bull;</i><i>&bull;</i><i>&bull;</i></div>
             <div class="body">
-                <div class="block-box">
-                    <p style="width:200px;background-color:gold;padding: 10px; margin: 20px;">wideness?</p>
-                </div>
+              <div id="box">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
             </div>
         </div>
     </body>
