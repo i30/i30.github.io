@@ -61,11 +61,11 @@ I often do this:
 
 </figure>
 
-Let's not talk about PHP short echo syntax or indentation here. Personally, the recommended style have two problems:
+Let's not talk about PHP short echo syntax or indentation here. It might look more readable but, personally, the recommended style have two problems:
 
-1. **Increase page size** with redundant whitespaces if rendered page is not minified. Even if minified, it needs extra processes on back-end.
+1. Increases page size with redundant whitespaces if rendered pages are not minified. Even if minified, it needs extra processes on the back-end.
 
-2. **Confuse front-end developers** with anonymous whitespaces.
+2. Confuses front-end developers with anonymous whitespaces.
 
 For example:
 

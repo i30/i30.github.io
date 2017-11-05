@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+<rect id="XMLID_1_" x="76.9" y="115.5" fill="#FFFFFF" stroke="#F26D6D" stroke-width="2" stroke-miterlimit="10" width="585" height="328.5"/>
+<rect id="XMLID_2_" x="125.1" y="158.2" fill="#FFFFFF" stroke="#EAE35E" stroke-width="2" stroke-miterlimit="10" width="488.7" height="243"/>
+<rect id="XMLID_3_" x="170.7" y="198" fill="#FFFFFF" stroke="#B0E57C" stroke-width="2" stroke-miterlimit="10" width="397.5" height="163.5"/>
+<rect id="XMLID_4_" x="213.7" y="237.7" fill="#FFFFFF" stroke="#CE6CE5" stroke-width="2" stroke-miterlimit="10" width="311.3" height="84"/>
+<text id="XMLID_5_" transform="matrix(1 0 0 1 326.4794 286.0901)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="18px">Content</text>
+<text id="XMLID_6_" transform="matrix(1 0 0 1 331.8799 185.0953)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="18px">Border</text>
+<text id="XMLID_7_" transform="matrix(1 0 0 1 326.4794 226.0932)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="18px">Padding</text>
+<text id="XMLID_8_" transform="matrix(1 0 0 1 331.8802 145.0973)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="18px">Margin</text>
+<line id="XMLID_9_" fill="#FFFFFF" stroke="#F26D6D" stroke-width="2" stroke-miterlimit="10" x1="730" y1="118" x2="772" y2="118"/>
+<line id="XMLID_10_" fill="#FFFFFF" stroke="#EAE35E" stroke-width="2" stroke-miterlimit="10" x1="730" y1="151" x2="772" y2="151"/>
+<line id="XMLID_12_" fill="#FFFFFF" stroke="#B0E57C" stroke-width="2" stroke-miterlimit="10" x1="730" y1="184" x2="772" y2="184"/>
+<line id="XMLID_13_" fill="#FFFFFF" stroke="#CE6CE5" stroke-width="2" stroke-miterlimit="10" x1="730" y1="217" x2="772" y2="217"/>
+<text id="XMLID_11_" transform="matrix(1 0 0 1 783.0742 120.5977)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="14px">Margin Edge</text>
+<text id="XMLID_14_" transform="matrix(1 0 0 1 783.0742 154.0957)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="14px">Border Edge</text>
+<text id="XMLID_15_" transform="matrix(1 0 0 1 783.0742 188.5938)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="14px">Padding Edge</text>
+<text id="XMLID_16_" transform="matrix(1 0 0 1 783.0742 221.0918)" fill="#444444" font-family="'RobotoMono-Regular'" font-size="14px">Content Edge</text>
+<text id="XMLID_17_" transform="matrix(1 0 0 1 348.0829 100.0997)" font-family="'RobotoMono-Regular'" font-size="18px">Top</text>
+<text id="XMLID_18_" transform="matrix(1 0 0 1 331.8801 469.0811)" font-family="'RobotoMono-Regular'" font-size="18px">Bottom</text>
+<text id="XMLID_19_" transform="matrix(1 0 0 1 17.6133 285.5911)" font-family="'RobotoMono-Regular'" font-size="18px">Left</text>
+<text id="XMLID_20_" transform="matrix(1 0 0 1 678.5801 285.5911)" font-family="'RobotoMono-Regular'" font-size="18px">Right</text>
+</svg>
