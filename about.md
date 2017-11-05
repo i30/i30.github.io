@@ -13,4 +13,4 @@ I'm a web developer focusing on [PHP](http://php.net/) and [JavaScript](https://
 
 Fishing, biking and traveling are my favorite activities. If you're going to travel to Vietnam someday, there're always free rooms and tour guides for you.
 
-This site is where I share my public info and my thoughts around what I'm thinking and learning about. Hope you will enjoy the content!
+This site is where I share my public info and my thoughts about what I'm thinking and learning. Hope you will enjoy the content!
