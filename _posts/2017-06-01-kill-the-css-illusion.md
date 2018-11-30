@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "A summer journey to CSS"
+title: "CSS Notes"
 image:
   url: /images/css-101.gif
   width: 380
   height: 345
 category: CSS
-excerpt: "CSS core itself is full of anomalies and idiosyncrasies. Sometimes, even you have followed the most obvious path, you still couldn't archive your goal."
+excerpt: "CSS core itself is full of anomalies and idiosyncrasies. Sometimes, even I have followed the most obvious path, I still couldn't archive my goal."
 date: 2017-06-01 19:05:25 +0700
 ---
 <figure class="float-right margin-x-1 margin-clear-top">
