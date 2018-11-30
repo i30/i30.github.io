@@ -3,7 +3,7 @@ layout:   post
 title:    "Cascade Algorithm"
 category: css
 date:     2017-06-09 16:20:25 +0700
-series:   "Kill your CSS illusion"
+series:   "CSS Notes"
 ---
 
 Conflicts between CSS declarations are resolved by assigning a weight to each declaration so that when several declarations apply, the one with the greatest weight takes precedence:

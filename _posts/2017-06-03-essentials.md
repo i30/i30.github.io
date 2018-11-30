@@ -3,7 +3,7 @@ layout:   post
 title:    "CSS Essentials"
 category: css
 date:     2017-06-03 21:30:14 +0700
-series:   "Kill your CSS illusion"
+series:   "CSS Notes"
 ---
 
 ## 1. Syntax

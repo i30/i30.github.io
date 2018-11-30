@@ -6,8 +6,6 @@ date:     2017-06-02 15:20:25 +0700
 series:   "Kill your CSS illusion"
 ---
 
-CSS is full of anomalies and idiosyncrasies. There're important terminologies we must firmly understand and agree:
-
 ## 1. Types
 
 There're three common types of CSS in a document:

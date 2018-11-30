@@ -3,7 +3,7 @@ layout:   post
 title:    "CSS Visual Formatting"
 category: css
 date:     2017-06-10 16:08:22 +0700
-series:   "Kill your CSS illusion"
+series:   "CSS Notes"
 ---
 
 Each element in the document tree generates zero or more boxes according to the box model. The layout of these boxes is governed by:
