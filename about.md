@@ -7,7 +7,7 @@ image:
   height: auto
 permalink: /
 ---
-Hi! I'm Minh Tri - written as "Minh Trí" in Vietnamese. Nice to see you here!
+Hi! I'm Dang Vu - written as "Đặng Vũ" in Vietnamese. Nice to see you here!
 
 I'm a web developer focusing on PHP and JavaScript. I also speak Go and Java quite well.
 
